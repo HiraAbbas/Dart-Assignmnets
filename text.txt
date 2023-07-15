@@ -1,0 +1,51 @@
+chats-> doc id->collection(msgs)->doc id->{
+msg:"hi"
+isRead:false
+sender id: who send msgs
+timestamp: "current time"
+
+
+}
+              ->user 1
+              ->user 2
+              ->timestamp
+
+
+users
+
+
+models/: Directory to store your data models.
+
+user.dart: Model for user data.
+message.dart: Model for chat message data.
+chat.dart: Model for chat conversation data.
+providers/: Directory to store your provider classes.
+
+auth_provider.dart: Provider for handling user authentication.
+chat_provider.dart: Provider for managing chat-related state.
+user_provider.dart: Provider for managing user-related state.
+screens/: Directory to store your app screens or pages.
+
+chat_screen.dart: Screen for displaying chat conversations.
+user_list_screen.dart: Screen for showing a list of users to chat with.
+login_screen.dart: Screen for user authentication and login.
+services/: Directory to store Firebase-related services.
+
+authentication_service.dart: Handles user authentication.
+database_service.dart: Handles database operations (e.g., fetching/saving messages).
+notification_service.dart: Handles sending notifications.
+widgets/: Directory to store reusable UI components.
+
+chat_bubble.dart: Widget for displaying chat bubbles.
+user_tile.dart: Widget for displaying user details in a list.
+utils/: Directory to store utility functions or helper classes.
+
+constants.dart: Contains constant values used throughout the app.
+validators.dart: Contains form validation functions.
+routes/: Directory to store route definitions.
+
+app_routes.dart: Contains named routes for navigation.
+themes/: Directory to store theme-related files.
+
+app_theme.dart: Contains the app's theme configuration.
+main.dart: The entry point of your app.
